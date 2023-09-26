@@ -1,0 +1,57 @@
+.signInPage {
+  width: 18rem;
+  max-width: 300px;
+  padding: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  z-index: 1;
+}
+
+.signInPage form {
+  display: grid;
+}
+.signInPage form h1 {
+  font-size: 1.6rem;
+}
+.signInPage form h4 {
+  font-size: 1rem;
+}
+
+.signInPage form input {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.signInPage form button {
+  padding: 0.5rem 0;
+  width: 7rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+  margin: 1rem auto;
+}
+
+.signInPage--gray {
+  color: gray;
+}
+
+.signInPage--link {
+  cursor: pointer;
+}
+.signInPage--link:hover {
+  text-decoration: underline;
+}
